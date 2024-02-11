@@ -1,0 +1,39 @@
+.footer {
+    color: var(--color-grey);
+    margin: 60px 0 80px 0;
+
+    .container {
+        padding: 30px 0 0 0;
+        border-top: 1px solid #e6e6e6;
+    }
+}
+
+.footer__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 16px 0;
+}
+
+.footer__bottom {
+    display: flex;
+    align-items: center;
+
+    span {
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 10px;
+        background: var(--color-grey);
+        margin: 0 10px;
+    }
+
+    a {
+        font-weight: 500;
+        color: var(--color-grey);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

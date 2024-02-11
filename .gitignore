@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# folders
+
+venv/
+backup/
+/.idea/
+node_modules/
+frontend_02/node_modules
+frontend_02/package-lock.json
+templates/node_modules
+templates/package-lock.json
+
+*.pyc
+__pycache__
+*.log
+
+# files
+
+*.key
+*.sqlite3
+
+
+

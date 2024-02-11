@@ -1,0 +1,27 @@
+@use "sass:list";
+
+$vendors : "-webkit-", "-apple-", "-khtml-", "-moz-", "-rim-", "-xv-","-ms-", "-o-", "";
+
+:root {
+    --font: normal 16px 'Jost', sans-serif;
+    --family: 'Jost', sans-serif;
+}
+
+:root {
+    --color-glass: transparent;
+    --color-accent: #166666;
+    --color-body: #f3f3f3;
+    --color-main: #1a1a1a;
+    --color-grey: #525252;
+    --color-frame: #efefef;
+    --color-white: #ffffff;
+    --gradient-accent: linear-gradient(90deg, #166666 0%, #22c9c7 100%);
+}
+
+:root {
+    --shadow-div: 0 15px 50px 0 rgb(160 163 189 / 10%);
+}
+
+:root {
+    --width-container: 1280px;
+}
