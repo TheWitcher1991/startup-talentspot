@@ -15,6 +15,7 @@ $vendors : "-webkit-", "-apple-", "-khtml-", "-moz-", "-rim-", "-xv-","-ms-", "-
     --color-grey: #525252;
     --color-frame: #efefef;
     --color-white: #ffffff;
+    --color-500: rgba(255, 255, 255, 0.5);
     --gradient-accent: linear-gradient(90deg, #166666 0%, #22c9c7 100%);
 }
 
@@ -23,5 +24,6 @@ $vendors : "-webkit-", "-apple-", "-khtml-", "-moz-", "-rim-", "-xv-","-ms-", "-
 }
 
 :root {
-    --width-container: 1280px;
+    --width-container: 1200px;
+    --width-full: 96%;
 }

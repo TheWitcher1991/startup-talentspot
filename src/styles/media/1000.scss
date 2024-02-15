@@ -1,0 +1,137 @@
+@media all and (max-width: 1000px) {
+    .header__resume {
+        display: none;
+    }
+
+    .header__menu, .header__button {
+        display: none;
+    }
+
+    .container__price {
+        margin: 0;
+    }
+
+    .head__img {
+        display: none;
+    }
+
+    .cart__info {
+        padding: 26px;
+    }
+
+    .cart__info article>span {
+        margin: 0 0 16px 0;
+    }
+
+    .cart__grid {
+        display: block;
+    }
+
+    .cart__info {
+        display: block;
+    }
+
+    .container__price {
+        .price__block:last-of-type {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .company__info div {
+        width: 100%;
+    }
+
+    .feedback__container h3 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .company__info {
+        display: block;
+    }
+
+    .company__cart {
+        margin: 30px 0 0 0;
+    }
+
+    .company__info div {
+        margin: 0;
+    }
+
+    .container__title h2 {
+        font-size: 28px;
+    }
+
+    .device__block {
+        display: flex;
+        flex-direction: column
+    }
+
+    .device__block {
+        margin: 20px 0 0 0;
+    }
+
+    .device__wrapper {
+        .device__block:last-of-type {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .device__wrapper .device__block:last-of-type .device__text {
+        margin: 0 0 20px 0;
+    }
+
+    .device__wrapper .device__block:first-of-type .device__text {
+        margin: 0 0 20px 0;
+    }
+
+    .device__wrapper .device__block:first-of-type .device__img>img {
+        height: 350px;
+        width: 100%;
+        object-fit: contain;
+        aspect-ratio: 1;
+    }
+
+    .device__wrapper .device__block:last-of-type .device__img>img {
+        height: auto;
+        object-fit: contain;
+        aspect-ratio: 1;
+        position: absolute;
+        right: 0;
+    }
+
+
+    .price__block {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 20px 0;
+    }
+
+    .container__price img {
+        height: 420px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .container__price .price__block:last-of-type .price__content {
+        margin: 0;
+    }
+
+    .price__content h2 {
+        font-size: 28px;
+        margin: 0 0 16px 0;
+    }
+
+    .price__list li p {
+        font-size: 22px;
+    }
+
+    .price__list li span {
+        font-size: 15px;
+    }
+
+    .price__list li>i {
+        font-size: 22px;
+        margin: 0 10px 0 0;
+    }
+}

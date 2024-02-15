@@ -1,0 +1,87 @@
+@media all and (max-width: 1250px) {
+    .container {
+        max-width: var(--width-full);
+    }
+
+    .section__slider__container {
+        display: block;
+    }
+
+    .cart__info article>span {
+        font-size: 30px;
+    }
+
+    .section {
+        margin: 60px 0;
+        position: relative;
+    }
+
+    .header__resume {
+        width: 480px;
+    }
+
+    .section__slider__container .project__text {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .container__price .price__block:first-of-type .price__content {
+        margin: 0 30px 0 0;
+    }
+
+    .container__price {
+        margin: 0 0 90px 0;
+    }
+
+    .slot__success, .slot__industry, .feedback__container img {
+        display: none;
+    }
+
+    .container__price .price__block:last-of-type .price__content {
+        margin: 0 0 0 30px;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .device__wrapper .device__block:last-of-type .device__img {
+        height: 420px;
+    }
+
+    .device__wrapper .device__block:first-of-type .device__img {
+        height: 420px;
+    }
+
+    .device__wrapper .device__block:last-of-type .device__img>img {
+        width: 350px;
+    }
+
+    .device__wrapper .device__block:first-of-type .device__img>img {
+        width: 250px;
+    }
+
+    .section__slider__container .slider__wrapper {
+        width: 100%;
+    }
+
+    .company__info h3 {
+        font-size: 60px;
+    }
+
+    .company__info div {
+        font-size: 21px;
+    }
+
+    .company__cart {
+        display: block;
+    }
+
+    .company__cart>a {
+        margin: 30px 0;
+    }
+
+    .company__cart>div, .company__cart>a {
+        height: 190px;
+    }
+}
