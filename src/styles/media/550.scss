@@ -1,0 +1,155 @@
+@media all and (max-width: 550px) {
+    .section {
+        margin: 20px 0;
+    }
+
+    .cart__info article>span {
+        font-size: 23px;
+    }
+
+    .modal__full .modal__title h2 {
+        font-size: 26px;
+    }
+
+    .section__slider__container {
+        margin: 0;
+    }
+
+    .head__img a {
+        display: none;
+    }
+
+    .head__img video {
+        height: 150px;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .price__content h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .container__price .price__block .price__content {
+        background: #fff;
+        padding: 16px 12px;
+        border-radius: 20px;
+    }
+
+    .device__wrapper .device__block .device__text {
+        margin: 0;
+        background: #fff;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .device__text>h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .device__text>span {
+        font-size: 18px;
+    }
+
+    .container__title h2 {
+        font-size: 22px;
+    }
+
+        .device__text>p {
+        font-size: 15px;
+    }
+
+    .price__list li p {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .price__block, .container__price .price__block:first-of-type .price__content {
+        margin: 0;
+    }
+
+    .section__feedback {
+        margin: 0;
+    }
+
+    .price__list li span {
+        font-size: 14px;
+    }
+
+    .cart__info img {
+        height: 35px;
+    }
+
+    .head__title h1 {
+        text-align: center;
+    }
+
+    .price__list li:last-of-type {
+        margin: 0;
+    }
+
+    .cart__info {
+        margin: 16px 0 0 0;
+    }
+
+    .cart__grid>div p {
+        font-size: 19px;
+    }
+
+    .documents {
+        margin: 0;
+    }
+
+    .head__title h1 {
+        font-size: 22px;
+    }
+
+    .company__info h3 {
+        font-size: 50px;
+    }
+
+    .company__info div {
+        font-size: 18px;
+    }
+
+
+    .header__nav {
+        margin: 16px 0;
+    }
+
+    .company__cart>div, .company__cart>a {
+        height: fit-content;
+        padding: 30px 20px;
+    }
+
+    .feedback__container {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .footer {
+        margin: 30px 0 20px 0
+    }
+
+    .footer__top, .footer__bottom {
+        display: block;
+    }
+
+    .footer__top span {
+        display: block;
+    }
+
+    .footer__bottom span {
+        display: none;
+    }
+
+    .footer__bottom a {
+        display: block;
+        margin: 0 0 6px 0;
+    }
+
+    .section__about .container__title {
+        margin: 0;
+    }
+}
