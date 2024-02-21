@@ -3,8 +3,16 @@
         display: none;
     }
 
+    .head__img {
+        height: 310px;
+    }
+
     .header__menu, .header__button {
         display: none;
+    }
+
+    .cart__grid>div:nth-child(3) {
+        margin: 0 0 20px 0;
     }
 
     .container__price {

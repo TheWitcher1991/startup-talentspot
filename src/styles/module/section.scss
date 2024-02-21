@@ -71,6 +71,8 @@
 }
 
 .head__img {
+    background-image: url("/build/img/frame/big-rounded.png");
+    height: 450px;
     width: 100%;
     margin: 20px 0 0 0;
     border-radius: 30px;
@@ -79,28 +81,15 @@
     object-fit: cover;
     background-size: contain;
 
-    video {
-        height: 500px;
-        width: 100%;
-        border-radius: 30px;
-        object-fit: cover;
-    }
-
     a {
         display: block;
         position: absolute;
         top: 16px;
-        left: 16px;
+        right: 0;
         width: 385px;
         text-align: left;
         font-size: 15px;
-        color: var(--color-main);
-        border-radius: 20px;
-        backdrop-filter: blur(20px);
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.2) 100%);
-        padding: 6px 14px;
-        line-height: 1.2;
-
+        color: var(--color-grey);
 
         &:hover {
             text-decoration: underline;

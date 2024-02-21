@@ -7,6 +7,29 @@
         display: block;
     }
 
+    .head__img {
+        a {
+            display: block;
+            position: absolute;
+            top: 6px;
+            right: 0px;
+            width: 385px;
+            text-align: left;
+            font-size: 15px;
+            color: var(--color-main);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.2) 100%);
+            padding: 6px 14px;
+            line-height: 1.2;
+
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
     .cart__info article>span {
         font-size: 30px;
     }
