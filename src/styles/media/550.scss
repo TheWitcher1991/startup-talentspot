@@ -4,7 +4,23 @@
     }
 
     .head__img {
-        height: 150px;
+
+        video {
+            height: 250px;
+        }
+    }
+
+    .global__error {
+        padding: 0 20px;
+        flex-direction: column;
+
+        img {
+            height: 250px;
+        }
+    }
+
+    .global__error .global__error-left h1 {
+        font-size: 27px;
     }
 
     .header__logo {
@@ -26,12 +42,6 @@
 
     .head__img a {
         display: none;
-    }
-
-    .head__img video {
-        height: 150px;
-        width: 100%;
-        border-radius: 30px;
     }
 
     .price__content h2 {

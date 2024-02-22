@@ -1,7 +1,7 @@
 <?php
 
 $title = 'Стартап — TALENTSPOT';
-$description = 'Формируйте кадровый резерв из квалифицированного персонала с TALENTSPOT';
+$description = 'Кадровый резерв для вашего бизнеса из профессионального персонала c TALENTSPOT';
 $keywords = '';
 $name = 'ООО «ТалентСпот»';
 $email = 'info@talentspot.ru';
@@ -16,94 +16,7 @@ $rev = [
 
 ?>
 
-<!DOCTYPE html>
-<!--[if lt IE 6 ]><html class="ie ie6" lang="ru" dir="ltr"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="ru" dir="ltr"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="ru" dir="ltr"> <![endif]-->
-<!--[if IE 9 ]><html class="ie ie9" lang="ru" dir="ltr"> <![endif]-->
-<!--[if IE 10 ]><html class="ie ie10" lang="ru" dir="ltr"> <![endif]-->
-<!--[if (gte IE 11)|!(IE)]><!-->
-<html lang="ru" dir="ltr" xmlns="http://www.w3.org/1999/html">
-<!--<![endif]-->
-<head>
-
-    <meta charset="utf-8" />
-
-    <!-- SEO -->
-    <title><?= $title ?></title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="description" content="<?= $description ?>" />
-    <meta name="keywords" content="<?= $keywords ?>" />
-    <link rel="canonical" href="startup.talentspot.ru" />
-    <meta http-equiv="content-language" content="ru" />
-    <meta name="robots" content="index, follow" />
-    <meta http-equiv="x-dns-prefetch-control" content="on" />
-
-    <meta name="author" content="<?= $name ?>" />
-    <meta name="copyright" content="<?= $name ?>" />
-
-    <meta property="og:title" content="<?= $title ?>" />
-    <meta property="og:description" content="<?= $description ?>" />
-    <meta property="og:url" content="startup.talentspot.ru" />
-
-    <meta property="twitter:title" content="<?= $title ?>" />
-    <meta property="twitter:description" content="<?= $description ?>" />
-    <meta property="twitter:url" content="startup.talentspot.ru" />
-
-    <meta property="og:locale" content="ru_RU" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="<?= $title ?>" />
-
-    <meta name="twitter:domain" content="startup.talentspot.ru" />
-    <meta name="twitter:site" content="@talentspot.ru" />
-    <meta name="twitter:creator" content="@talentspot.ru" />
-
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"/>
-    <link rel="icon" href="./img/favicon.png" type="image/x-icon"/>
-    <!-- / SEO  -->
-
-    <!-- SCRIPT FOR OLD BROWSERS -->
-    <script type="text/javascript">
-        !function(){"use strict";function trackOldBrowserEvent(){var t=function createXmlHttpRequestObject(){var t;try{t=new XMLHttpRequest}catch(r){for(var e=new Array("MSXML2.XMLHHTP.11.0","MSXML2.XMLHHTP.10.0","MSXML2.XMLHHTP.9.0","MSXML2.XMLHHTP.8.0","MSXML2.XMLHHTP.7.0","MSXML2.XMLHHTP.6.0","MSXML2.XMLHHTP.5.0","MSXML2.XMLHHTP.4.0","MSXML2.XMLHHTP.3.0","MSXML2.XMLHHTP","Microsoft.XMLHHTP"),s=0;s<e.length&&!t;s++)try{t=new ActiveXObject(e[s])}catch(t){}}return null!=t?t:void 0}(),e=new Object;return e.open="/badbrowser?status="+(0!==t.status&&t.status),e.xhr=t.responseURL?t.responseURL:"/badbrowser?status="+(0!==t.status&&t.status),t.open("GET",e.open,!0),t.setRequestHeader("Content-Type","text/html"),t.setRequestHeader("X-Requested-With","XMLHttpRequest"),t.onreadystatechange=function(){if(4===t.readyState&&(t.status>=200&&t.status<300||304===t.status||0===t.status&&"file:"===protocol))try{location.replace(t.responseURL?t.responseURL:"/badbrowser?status="+t.status)}catch(t){}},t.send(e.xhr?e.xhr:null),t}!function checkOldBrowser(){if(document.body)try{"CSS"in window&&CSS.supports("display","flex")&&"undefined"!=typeof Symbol||trackOldBrowserEvent()}catch(t){}else setTimeout(checkOldBrowser,100)}()}();
-    </script>
-    <!-- / SCRIPT FOR OLD BROWSERS -->
-
-    <!-- INCLUDE LIBS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- / INCLUDE LIBS -->
-
-    <!-- INCLUDE ICONS AND FRONTS -->
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.min.css"
-          integrity="sha512-nRzny9w0V2Y1/APe+iEhKAwGAc+K8QYCw4vJek3zXhdn92HtKt226zHs9id8eUq+uYJKaH2gPyuLcaG/dE5c7A=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <!-- / INCLUDE ICONS AND FRONTS -->
-
-    <link rel="stylesheet" href="./lk.bundle.css">
-
-</head>
-<body>
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(96541801, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/96541801" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+<?= HEAD($title, $name, $keywords, $description) ?>
 
 <dialog class="modal__full">
     <section class="company__documents">
@@ -188,7 +101,7 @@ $rev = [
                 <div class="header__menu wow fadeIn">
                     <ul>
                         <li><a href="#about">О нас</a></li>
-                        <li><a href="#project">Наш проект</a></li>
+                        <li><a href="#project">Наш продукт</a></li>
                         <li><a href="#client">Клиентам</a></li>
                     </ul>
                 </div>
@@ -205,7 +118,7 @@ $rev = [
     <section class="section section__header">
         <div class="container">
             <div class="head__title">
-                <h1 class="wow fadeIn">Формируйте кадровый резерв из <span>квалифицированного</span> персонала с TALENTSPOT</h1>
+                <h1 class="wow fadeIn">Кадровый резерв для вашего бизнеса из <span>профессионального</span> персонала</h1>
                 <div class="header__resume wow slideInRight">
                     <div class="hr-top">
                         <img src="./img/frame/image-room.png" alt="">
@@ -223,6 +136,9 @@ $rev = [
                 </div>
             </div>
             <div class="head__img wow fadeIn">
+				<video no-controls muted autoplay loop playsinline>
+					<source src="./img/compressed-anim.mp4" type="video/mp4">
+				</video>
                 <a href="https://fasie.ru/" target="_blank">* при поддержке «Фонда содействия инновациям» в рамках программы «Студенческий стартап»</a>
             </div>
         </div>
@@ -241,7 +157,7 @@ $rev = [
             <article class="container__content">
                 <div class="company__info wow fadeIn">
                     <h3>TALENT <br> SPOT —</h3>
-                    <div> <?= $name ?> молодая стартап-компания. <br> Мы фокусируемся на создании инновационных решений полезных для России</div>
+                    <div> <?= $name ?> молодая стартап-компания. <br> Мы фокусируемся на создании цифровых решений полезных для России</div>
                 </div>
                 <div class="company__cart">
                     <div class="wow fadeIn">
@@ -281,7 +197,9 @@ $rev = [
             <article class="container__content">
                 <div class="section__slider__container">
                     <div class="project__text wow fadeIn">
-                        Мы предоставляем только самых подходящих кандидатов, что
+                        Сервис для найма квалифицированного персонала TALENTSPOT
+                        <br />
+                        Мы будет предоставлять только специалистов, что
                         позволяет вам сосредоточиться на самом важном — развитии
                         вашего бизнеса, не отвлекаясь на долгий поиск стоящего кандидата
 
@@ -289,19 +207,19 @@ $rev = [
                     <div class="slider__wrapper wow fadeIn">
                         <div class="owl-carousel owl-theme">
                             <div class="item slider__item">
+                                <h4 class="slider__title">Рейтинг</h4>
+                                <p class="slider__text">Выстраивание репутации кандидатов по балльной системе</p>
+                                <img class="img__q3" src="./img/frame/q3.png" alt="">
+                            </div>
+                            <div class="item slider__item">
                                 <h4 class="slider__title">Автоматизация найма</h4>
-                                <p class="slider__text">Автоматизируйте найм с автоподбором и чат-ботом</p>
+                                <p class="slider__text">Автоматизируйте найм с авто-фильтрацией и чат-ботом</p>
                                 <img class="img__q1" src="./img/frame/q1.png" alt="">
                             </div>
                             <div class="item slider__item">
                                 <h4 class="slider__title">Кадровый резерв</h4>
                                 <p class="slider__text">Храните резюме специалистов на будущее</p>
                                 <img class="img__q2" src="./img/frame/q2.png" alt="">
-                            </div>
-                            <div class="item slider__item">
-                                <h4 class="slider__title">Рейтинг</h4>
-                                <p class="slider__text">Сертификация кандидатов по балльной системе</p>
-                                <img class="img__q3" src="./img/frame/q3.png" alt="">
                             </div>
                             <div class="item slider__item">
                                 <h4 class="slider__title">Специалисты</h4>
@@ -336,7 +254,7 @@ $rev = [
                         <div class="device__text wow fadeIn">
                             <h3>АКТУАЛЬНАЯ ИНФОРМАЦИЯ</h3>
                             <span>Подборка подходящих вакансий и резюме</span>
-                            <p>Для поиска вакансий можно использовать различные фильтры, включая отрасль, уровень опыта, местоположение и тип занятости. Каждый соискать, находящийся в поисках работы сможет найти подходящую вакансию.</p>
+                            <p>Для поиска вакансий и резюме можно будет использовать различные фильтры, включая отрасль, уровень опыта, местоположение и тип занятости и т.д.</p>
                         </div>
                         <div class='slot__success wow bounceIn' data-wow-delay="400ms">
                             <span><i class="mdi mdi-check-bold"></i></span>
@@ -390,14 +308,14 @@ $rev = [
                                 <i class="mdi mdi-tune-variant"></i>
                                 <div>
                                     <p>Конструктор резюме</p>
-                                    <span>Создайте качественное резюме с помощью удобного пользовательского интерфейса и различных шаблонов заполнения</span>
+                                    <span>Создавайте качественное резюме с помощью удобного пользовательского интерфейса и различных шаблонов заполнения</span>
                                 </div>
                             </li>
                             <li>
                                 <i class="mdi mdi-check-decagram-outline"></i>
                                 <div>
                                     <p>Проверенные работодатели</p>
-                                    <span>Мы проверяем информацию о каждом предприятии или предпринимателе на этапе регистрации, только подтвержденные работодатели</span>
+                                    <span>Мы будем проверять информацию о каждом предприятии или предпринимателе на этапе регистрации, — только подтвержденные работодатели</span>
                                 </div>
                             </li>
                         </ul>
@@ -417,7 +335,7 @@ $rev = [
                                 <i class="mdi mdi-account-tie-outline"></i>
                                 <div>
                                     <p>Только квалифицированные кадры</p>
-                                    <span>Мы проводим фильтрацию кандидатов на этапе регистрации, будут только соискатели с подтвержденными компетенциями</span>
+                                    <span>Мы будем проводить фильтрацию кандидатов на этапе регистрации, — только соискатели с подтвержденными компетенциями</span>
                                 </div>
                             </li>
                             <li>
@@ -473,13 +391,6 @@ $rev = [
     </footer>
 </main>
 
-<!-- INCLUDE SCRIPTS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>new WOW().init()</script>
+<?= FOOTER() ?>
 
-<script src="./lk.bundle.js"></script>
-<!-- / INCLUDE SCRIPTS -->
-</body>
-<body>
+

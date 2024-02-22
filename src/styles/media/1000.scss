@@ -4,8 +4,17 @@
     }
 
     .head__img {
-        height: 310px;
+        video: 320px
     }
+
+    .global__error {
+        flex-direction: column;
+
+        img {
+            height: 350px;
+        }
+    }
+
 
     .header__menu, .header__button {
         display: none;

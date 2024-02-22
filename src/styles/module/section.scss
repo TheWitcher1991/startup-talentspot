@@ -3,6 +3,11 @@
     position: relative;
 }
 
+.section__header {
+    margin: 30px 0 120px 0;
+    position: relative;
+}
+
 .global__img-left, .global__img-right {
     position: absolute;
 }
@@ -71,8 +76,7 @@
 }
 
 .head__img {
-    background-image: url("/build/img/frame/big-rounded.png");
-    height: 450px;
+
     width: 100%;
     margin: 20px 0 0 0;
     border-radius: 30px;
@@ -84,16 +88,26 @@
     a {
         display: block;
         position: absolute;
-        top: 16px;
+        top: 0;
         right: 0;
         width: 385px;
         text-align: left;
         font-size: 15px;
         color: var(--color-grey);
+        background: #f3f3f3;
+        border-radius: 0 0 0 30px;
+        padding: 16px;
 
         &:hover {
             text-decoration: underline;
         }
+    }
+
+    video {
+        height: 550px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 30px;
     }
 }
 
@@ -561,11 +575,51 @@ a {
 }
 
 
+.global__error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: var(--color-white);
+    background: linear-gradient(150deg, var(--color-accent) 50%, var(--color-none) 50%);
 
+    .global__error-left {
+        margin: 0 60px 0 0;
 
+        h1 {
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+        }
 
+        span {
+            font-weight: 700;
+            font-size: 24px;
+            display: block;
+            margin: 26px 0 4px 0;
+        }
 
+        p {
+            font-size: 16px;
+            font-weight: 400;
+        }
 
+        > div {
+            display: flex;
+            align-items: center;
+            margin: 16px 0 0 0;
+
+            a {
+                color: var(--color-white);
+                display: block;
+                margin: 0 20px 0 0;
+                font-size: 15px;
+                text-decoration: underline;
+            }
+        }
+    }
+}
 
 
 

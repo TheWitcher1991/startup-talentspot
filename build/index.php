@@ -1,5 +1,9 @@
 <?php
 
+ob_start();
+
+include_once './layouts/function.php';
+
 if ($_SERVER['REQUEST_URI'] === '/') {
     $Page = 'home';
     $Module = 'home';
@@ -24,8 +28,10 @@ if ($_SERVER['REQUEST_URI'] === '/') {
 if (in_array($Page, ['home'])) {
     include 'layouts/' . $Page . '.php';
 } else {
-    echo "404";
+    include 'layouts/404.php';
 }
+
+ob_end_flush()
 
 ?>
 
