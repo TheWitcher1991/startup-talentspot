@@ -10,6 +10,20 @@
         }
     }
 
+    .owl-dots {
+        display: none;
+    }
+
+    .owl-theme .owl-nav {
+        float: none;
+    }
+
+    .section__slider {
+        .container__title {
+            margin: 30px 0 20px 0;
+        }
+    }
+
     .global__error {
         padding: 0 20px;
         flex-direction: column;
@@ -21,6 +35,11 @@
 
     .global__error .global__error-left h1 {
         font-size: 27px;
+    }
+
+    .section__mobile {
+        display: block;
+        padding: 20px 0 0 0;
     }
 
     .header__logo {

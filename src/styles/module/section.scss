@@ -4,7 +4,7 @@
 }
 
 .section__header {
-    margin: 30px 0 120px 0;
+    margin: 140px 0 120px 0;
     position: relative;
 }
 
@@ -76,13 +76,13 @@
 }
 
 .head__img {
-
     width: 100%;
     margin: 20px 0 0 0;
     border-radius: 30px;
     background-repeat: no-repeat;
     position: relative;
     object-fit: cover;
+    background: var(--color-body);
     background-size: contain;
 
     a {
@@ -94,9 +94,10 @@
         text-align: left;
         font-size: 15px;
         color: var(--color-grey);
-        background: #f3f3f3;
+        background: var(--color-body);
         border-radius: 0 0 0 30px;
         padding: 16px;
+        z-index: 10;
 
         &:hover {
             text-decoration: underline;
@@ -115,6 +116,10 @@
     display: flex;
     align-items: center;
     margin: 0 0 30px 0;
+
+    span {
+        color: var(--color-accent)
+    }
 
     h2 {
         font-size: 34px;
@@ -150,6 +155,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    padding: 0 16px;
     justify-content: center;
 
     > p {
@@ -217,7 +223,7 @@
         background: var(--color-main);
         color: var(--color-white);
         text-align: center;
-        margin: 0 50px;
+        margin: 0 40px 0 0;
 
         &:hover {
             background: var(--color-frame);
@@ -269,7 +275,7 @@
 
     .slider__wrapper {
         flex: auto;
-        width: 55%;
+        width: 60%;
     }
 }
 

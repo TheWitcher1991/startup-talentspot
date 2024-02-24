@@ -29,6 +29,14 @@
         position: relative;
     }
 
+    .section__header {
+        margin: 120px 0 60px 0;
+    }
+
+    .stack__list {
+        padding: 0;
+    }
+
     .header__resume {
         width: 480px;
     }
@@ -86,15 +94,7 @@
         font-size: 21px;
     }
 
-    .company__cart {
-        display: block;
-    }
-
-    .company__cart>a {
-        margin: 30px 0;
-    }
-
     .company__cart>div, .company__cart>a {
-        height: 190px;
+        height: 240px;
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
-$title = 'Стартап — TALENTSPOT';
-$description = 'Кадровый резерв для вашего бизнеса из профессионального персонала c TALENTSPOT';
+$title = 'Стартап — TalentSpot';
+$description = 'Платформа автоматизации процесса найма квалифицированного персонала';
 $keywords = '';
 $name = 'ООО «ТалентСпот»';
 $email = 'info@talentspot.ru';
@@ -90,15 +90,22 @@ $rev = [
 
 <main class="wrapper" id="wrapper">
 
-    <header id="header">
+	<section class="section__mobile">
+		<div class="header__logo">
+			<img src="./img/logo/166666/png/512x512.png" alt="">
+			TalentSpot
+		</div>
+	</section>
+
+    <header id="header" class="wow fadeIn">
         <div class="container">
             <nav class="header__nav">
-                <div class="header__logo wow fadeIn">
-                    <img src="./img/logo/black/png/512x512.png" alt="">
-                    TALENTSPOT
+                <div class="header__logo">
+                    <img src="./img/logo/166666/png/512x512.png" alt="">
+                    TalentSpot
                 </div>
 
-                <div class="header__menu wow fadeIn">
+                <div class="header__menu">
                     <ul>
                         <li><a href="#about">О нас</a></li>
                         <li><a href="#project">Наш продукт</a></li>
@@ -106,7 +113,7 @@ $rev = [
                     </ul>
                 </div>
 
-                <div class="header__button wow fadeIn">
+                <div class="header__button">
                     <!--<a class="link__button" href="https://talentspot.ru">Присоединиться <i class="mdi mdi-arrow-top-right"></i></a>-->
                     <a class="link__button" href="https://fasie.ru" target='_blank'>ФСИ <i class="mdi mdi-arrow-top-right"></i></a>
                     <a class="link__button create__contact">Контакты</a>
@@ -118,7 +125,7 @@ $rev = [
     <section class="section section__header">
         <div class="container">
             <div class="head__title">
-                <h1 class="wow fadeIn">Кадровый резерв для вашего бизнеса из <span>профессионального</span> персонала</h1>
+                <h1 class="wow fadeIn">Платформа автоматизации процесса найма <span>квалифицированного</span> персонала</h1>
                 <div class="header__resume wow slideInRight">
                     <div class="hr-top">
                         <img src="./img/frame/image-room.png" alt="">
@@ -160,12 +167,7 @@ $rev = [
                     <div> <?= $name ?> молодая стартап-компания. <br> Мы фокусируемся на создании цифровых решений полезных для России</div>
                 </div>
                 <div class="company__cart">
-                    <div class="wow fadeIn">
-                        <span class="company__top">
-                            <span>1 млн</span> <i class="mdi mdi-currency-rub"></i>
-                        </span>
-                        <span class="company__exp">поддержка на развитие от Фонда содействия инновациям</span>
-                    </div>
+
                     <a class="wow fadeIn" target="_blank" href="./documents/top.pdf">
                         <span class="company__top">
                             ТОП <span>1000</span>
@@ -175,10 +177,12 @@ $rev = [
                     <div class="wow fadeIn">
                         <div class="stack__list">
                             <p>Python</p>
-                            <p>TypeScript</p>
+                            <p>JavaScript</p>
                             <p>NodeJS</p>
                             <p>Django</p>
-                            <p>ReactJS</p>
+                            <p>TypeScript</p>
+                            <p>React</p>
+                            <p>Docker</p>
                             <p>Celery</p>
                             <p>PostgreSQL</p>
                         </div>
@@ -192,16 +196,15 @@ $rev = [
     <section class="section section__slider" id="project">
         <div class="container">
             <div class="container__title">
-                <h2 class="wow fadeIn">Собрали только лучшее </h2>
+                <h2 class="wow fadeIn">Платформа <span>TalentSpot</span> </h2>
             </div>
             <article class="container__content">
                 <div class="section__slider__container">
                     <div class="project__text wow fadeIn">
-                        Сервис для найма квалифицированного персонала TALENTSPOT
-                        <br />
-                        Мы будет предоставлять только специалистов, что
-                        позволяет вам сосредоточиться на самом важном — развитии
-                        вашего бизнеса, не отвлекаясь на долгий поиск стоящего кандидата
+
+                        Мы будем предоставлять только специалистов, что
+                        позволит вам сосредоточиться на самом важном — развитии
+                        вашего бизнеса, не отвлекаясь на долгий поиск подходящего кандидата
 
                     </div>
                     <div class="slider__wrapper wow fadeIn">
