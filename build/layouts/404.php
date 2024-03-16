@@ -2,12 +2,11 @@
 
 $title = 'Ошибка 404 — TalentSpot';
 $description = 'Платформа автоматизации процесса найма квалифицированного персонала';
-$keywords = '';
 $name = 'ООО «ТалентСпот»';
 
 ?>
 
-<?= HEAD($title, $name, $keywords, $description) ?>
+<?= HEAD($title, $name, $description) ?>
 
 <!-- MAIN CONTENT -->
 <main id="wrapper" class="wrapper">

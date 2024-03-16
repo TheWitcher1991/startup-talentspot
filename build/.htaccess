@@ -1,0 +1,37 @@
+DirectoryIndex index.php
+
+SetEnvIf X-HTTPS 1 HTTPS
+
+<IfModule mod_headers.c>
+    Header append Vary User-Agent
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    Options +FollowSymlinks
+
+    RewriteBase /
+
+    RewriteCond %{REQUEST_FILENAME} !-s
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteRule ^robots(.*)$ robots.txt [L,QSA]
+    RewriteRule ^robots.txt$ /robot.php?%{REQUEST_URI}
+    RewriteRule ^documents/(.*)$ documents/$1 [L,QSA]
+
+    RewriteRule ^.*$ index.php [L,QSA]
+
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+    RewriteCond %{HTTP_REFERER} !^$
+    RewriteCond %{HTTP_REFERER} !^http://startup\.talentspot\.ru/ [NC]
+    RewriteCond %{HTTP_REFERER} !^https://startup\.talentspot\.ru/ [NC]
+
+    RewriteRule \.(jpeg|png|bmp|gif|jpg|js|css)$ - [F]
+
+</IfModule>

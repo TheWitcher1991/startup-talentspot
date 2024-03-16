@@ -3,12 +3,45 @@
         display: none;
     }
 
+    .section__mobile {
+        display: block;
+    }
+
+    .services {
+        display: block;
+    }
+
+    .services .services__item:first-of-type {
+        margin: 0 0 30px 0;
+        padding: 25px;
+    }
+
+    .cookie__block {
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        border: 0;
+        border-radius: 0;
+
+        .cookie__flex {
+            display: block;
+        }
+
+        span {
+            display: block;
+        }
+
+        button {
+            margin: 10px 0 0 0;
+        }
+    }
+
     .head__img {
         video: 320px
     }
 
     .section__header {
-        margin: 30px 0 60px 0;
+        margin: 80px 0 60px 0;
     }
 
     .global__error {

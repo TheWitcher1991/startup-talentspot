@@ -29,6 +29,16 @@
         position: relative;
     }
 
+    .services__item {
+        img {
+            display: none;
+        }
+    }
+
+    .services .services__item>p {
+        width: 100%;
+    }
+
     .section__header {
         margin: 120px 0 60px 0;
     }

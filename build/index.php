@@ -4,6 +4,8 @@ ob_start();
 
 include_once './layouts/function.php';
 
+ini_set('error_log', $_SERVER['DOCUMENT_ROOT'] . '/log/php-errors.log');
+
 if ($_SERVER['REQUEST_URI'] === '/') {
     $Page = 'home';
     $Module = 'home';
@@ -25,7 +27,7 @@ if ($_SERVER['REQUEST_URI'] === '/') {
     }
 }
 
-if (in_array($Page, ['home'])) {
+if (in_array($Page, ['home', 'en', 'privacy', 'en-privacy'])) {
     include 'layouts/' . $Page . '.php';
 } else {
     include 'layouts/404.php';

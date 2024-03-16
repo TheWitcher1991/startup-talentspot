@@ -60,6 +60,89 @@
     }
 }
 
+.lang__button {
+
+    img {
+        height: 40px;
+    }
+}
+
+.section__mobile {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    transition: 300ms cubic-bezier(0.215,0.61,0.355,1);
+    transition-property: background-color, box-shadow;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255,255,255,.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.mobile__menu {
+    display: none;
+    padding: 16px 0;
+
+    li {
+        position: relative;
+        width: 100%;
+        text-align: center;
+
+        a {
+            color: var(--color-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            transition: all .2s linear;
+            font-weight: 500;
+            height: 42px;
+            font-size: 18px;
+            border-radius: 20px;
+            text-align: center;
+        }
+    }
+}
+
+.mobile__nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 60px;
+
+    .mobile__nav__button {
+        display: flex;
+        align-items: center;
+
+        > a {
+            font-size: 20px;
+            font-weight: 500;
+            display: block;
+            color: var(--color-main);
+            margin: 0 14px 0 0;
+        }
+
+        > i {
+            font-size: 29px;
+        }
+    }
+
+    > i {
+        font-size: 30px;
+    }
+
+    .header__logo {
+        font-size: 22px;
+    }
+
+    img {
+        height: 32px;
+    }
+}
+
 .link__button {
     height: 36px;
     display: flex;

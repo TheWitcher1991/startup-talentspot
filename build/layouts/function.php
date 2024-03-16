@@ -1,6 +1,6 @@
 <?php
 
-function HEAD ($title, $name, $keywords, $description) {
+function HEAD ($title, $name, $description) {
 
     return '
     <!DOCTYPE html>
@@ -19,9 +19,9 @@ function HEAD ($title, $name, $keywords, $description) {
         <!-- SEO -->
         <title>'.$title.'</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
         <meta name="description" content="'.$description.'" />
-        <meta name="keywords" content="'.$keywords.'" />
+        <meta name="keywords" content="талентспот, ооо талентспот, talentspot, llc talentspot, автоматизация, автоматизация найма, кадровый резерв, квалифицированные кадры, подбор персонала, стартап" />
         <link rel="canonical" href="startup.talentspot.ru" />
         <meta http-equiv="content-language" content="ru" />
         <meta name="robots" content="index, follow" />
@@ -30,6 +30,7 @@ function HEAD ($title, $name, $keywords, $description) {
         <meta name="author" content="'.$name.'" />
         <meta name="copyright" content="'.$name.'" />
 
+        <meta property="og:image" content="https://startup.talentspot.ru/img/eng.png?v='.date('YmdHis').'">
         <meta property="og:title" content="'.$title.'" />
         <meta property="og:description" content="'.$description.'" />
         <meta property="og:url" content="startup.talentspot.ru" />
@@ -37,6 +38,7 @@ function HEAD ($title, $name, $keywords, $description) {
         <meta property="twitter:title" content="'.$title.'" />
         <meta property="twitter:description" content="'.$description.'" />
         <meta property="twitter:url" content="startup.talentspot.ru" />
+        <meta property="twitter:image" content="https://startup.talentspot.ru/img/eng.png?v='.date('YmdHis').'">
 
         <meta property="og:locale" content="ru_RU" />
         <meta property="og:type" content="website" />
