@@ -231,8 +231,7 @@ $rev = [
 				<div class='services'>
 					<div class="services__item">
 						<h3>Веб-разработка</h3>
-						<p>Разработка уникальных и требовательных веб-приложений и сайтов</p>
-						<a class="link__button" href="mailto:<?= $email ?>">Связаться <i class="mdi mdi-arrow-top-right"></i></a>
+						<p>Кроме нашего главного продукта, мы ориентированы на создание уникальных веб-приложений и сайтов</p>
 						<img src="./img/frame/service_1.png?v=<?= date('YmdHis') ?>" alt="">
 					</div>
 					<div class="services__item">
@@ -249,7 +248,7 @@ $rev = [
 	<section class="section section__slider" id="project">
 		<div class="container">
 			<div class="container__title">
-				<h2 class="wow fadeIn">Стартап <span>TALENTSPOT</span> </h2>
+				<h2 class="wow fadeIn">Наш продукт — стартап <span>TALENTSPOT</span></h2>
 			</div>
 			<article class="container__content">
 				<div class="section__slider__container">
@@ -442,6 +441,8 @@ $rev = [
 				<a href='http://fasie.ru' target='_blank'>Фонд содействиям инновациям</a>
 				<span></span>
 				<a href='/privacy'>Политика конфиденциальности</a>
+				<span></span>
+				<a href='https://github.com/tslru' target='_blank'>GitHub</a>
 				<span></span>
 				<a href='/en'>In english</a>
 			</div>

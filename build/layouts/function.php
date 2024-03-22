@@ -2,18 +2,16 @@
 
 function HEAD ($title, $name, $description) {
 
-    return '
-    <!DOCTYPE html>
-    <!--[if lt IE 6 ]><html class="ie ie6" lang="ru" dir="ltr"> <![endif]-->
-    <!--[if IE 7 ]><html class="ie ie7" lang="ru" dir="ltr"> <![endif]-->
-    <!--[if IE 8 ]><html class="ie ie8" lang="ru" dir="ltr"> <![endif]-->
-    <!--[if IE 9 ]><html class="ie ie9" lang="ru" dir="ltr"> <![endif]-->
-    <!--[if IE 10 ]><html class="ie ie10" lang="ru" dir="ltr"> <![endif]-->
-    <!--[if (gte IE 11)|!(IE)]><!-->
-    <html lang="ru" dir="ltr" xmlns="http://www.w3.org/1999/html">
-    <!--<![endif]-->
-    <head>
-
+    return '<!DOCTYPE html>
+<!--[if lt IE 6 ]><html class="ie ie6" lang="ru" dir="ltr"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="ru" dir="ltr"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="ru" dir="ltr"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="ru" dir="ltr"> <![endif]-->
+<!--[if IE 10 ]><html class="ie ie10" lang="ru" dir="ltr"> <![endif]-->
+<!--[if (gte IE 11)|!(IE)]><!-->
+<html lang="ru" dir="ltr" xmlns="http://www.w3.org/1999/html">
+<!--<![endif]-->
+<head>
         <meta charset="utf-8" />
 
         <!-- SEO -->
@@ -51,10 +49,20 @@ function HEAD ($title, $name, $description) {
         <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"/>
         <link rel="icon" href="./img/favicon.png" type="image/x-icon"/>
         <!-- / SEO  -->
+        
+        <meta name="yandex-verification" content="98afc2b57a4f3cca" />
 
         <!-- SCRIPT FOR OLD BROWSERS -->
         <script type="text/javascript">
-            !function(){"use strict";function trackOldBrowserEvent(){var t=function createXmlHttpRequestObject(){var t;try{t=new XMLHttpRequest}catch(r){for(var e=new Array("MSXML2.XMLHHTP.11.0","MSXML2.XMLHHTP.10.0","MSXML2.XMLHHTP.9.0","MSXML2.XMLHHTP.8.0","MSXML2.XMLHHTP.7.0","MSXML2.XMLHHTP.6.0","MSXML2.XMLHHTP.5.0","MSXML2.XMLHHTP.4.0","MSXML2.XMLHHTP.3.0","MSXML2.XMLHHTP","Microsoft.XMLHHTP"),s=0;s<e.length&&!t;s++)try{t=new ActiveXObject(e[s])}catch(t){}}return null!=t?t:void 0}(),e=new Object;return e.open="/badbrowser?status="+(0!==t.status&&t.status),e.xhr=t.responseURL?t.responseURL:"/badbrowser?status="+(0!==t.status&&t.status),t.open("GET",e.open,!0),t.setRequestHeader("Content-Type","text/html"),t.setRequestHeader("X-Requested-With","XMLHttpRequest"),t.onreadystatechange=function(){if(4===t.readyState&&(t.status>=200&&t.status<300||304===t.status||0===t.status&&"file:"===protocol))try{location.replace(t.responseURL?t.responseURL:"/badbrowser?status="+t.status)}catch(t){}},t.send(e.xhr?e.xhr:null),t}!function checkOldBrowser(){if(document.body)try{"CSS"in window&&CSS.supports("display","flex")&&"undefined"!=typeof Symbol||trackOldBrowserEvent()}catch(t){}else setTimeout(checkOldBrowser,100)}()}();
+          /*!function(){"use strict";function trackOldBrowserEvent(){var t=function createXmlHttpRequestObject(){var t;try{t=new XMLHttpRequest}catch(r){
+          for(var e=new Array("MSXML2.XMLHHTP.11.0","MSXML2.XMLHHTP.10.0","MSXML2.XMLHHTP.9.0","MSXML2.XMLHHTP.8.0","MSXML2.XMLHHTP.7.0",
+          "MSXML2.XMLHHTP.6.0","MSXML2.XMLHHTP.5.0","MSXML2.XMLHHTP.4.0","MSXML2.XMLHHTP.3.0","MSXML2.XMLHHTP","Microsoft.XMLHHTP"),s=0;s<e.length&&!t;s++)
+          try{t=new ActiveXObject(e[s])}catch(t){}}return null!=t?t:void 0}(),e=new Object;return e.open="/badbrowser?status="+(0!==t.status&&t.status),
+          e.xhr=t.responseURL?t.responseURL:"/badbrowser?status="+(0!==t.status&&t.status),t.open("GET",e.open,!0),t.setRequestHeader("Content-Type","text/html"),
+          t.setRequestHeader("X-Requested-With","XMLHttpRequest"),t.onreadystatechange=function(){if(4===t.readyState&&(t.status>=200&&t.status<300||304===t.status||0===
+          t.status&&"file:"===protocol))try{location.replace(t.responseURL?t.responseURL:"/badbrowser?status="+t.status)}catch(t){}},t.send(e.xhr?e.xhr:null),t}!
+          function checkOldBrowser(){if(document.body)try{"CSS"in window&&CSS.supports("display","flex")&&"undefined"!=typeof Symbol||trackOldBrowserEvent()}catch(t){}else 
+          setTimeout(checkOldBrowser,100)}()}();*/
         </script>
         <!-- / SCRIPT FOR OLD BROWSERS -->
 
@@ -73,9 +81,8 @@ function HEAD ($title, $name, $description) {
         <!-- / INCLUDE ICONS AND FRONTS -->
 
         <link rel="stylesheet" href="./lk.bundle.css?v='.date('YmdHis').'">
-
-    </head>
-    <body>
+ </head>
+ <body>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
@@ -93,7 +100,6 @@ function HEAD ($title, $name, $description) {
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/96541801" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-
     ';
 
 }
