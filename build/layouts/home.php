@@ -47,13 +47,7 @@ $rev = [
 					</div>
 				</a>
 
-				<a target="_blank" href="./documents/diplom.pdf?v=<?= date('YmdHis') ?>">
-					<img src="./img/frame/PDF.png" alt="">
-					<div>
-						<p>Диплом студ.стартап</p>
-						<span>diplom.pdf</span>
-					</div>
-				</a>
+
 
 
 			</div>
@@ -187,7 +181,7 @@ $rev = [
 			<article class="container__content">
 				<div class="company__info wow fadeIn">
 					<h3>TALENT <br> SPOT —</h3>
-					<div> <?= $name ?> молодая стартап-компания. <br> Мы фокусируемся на создании цифровых решений полезных для России</div>
+					<div> <?= $name ?> молодая аккредитованная ИТ-компания. <br> Мы фокусируемся на создании цифровых решений полезных для России</div>
 				</div>
 				<div class="company__cart">
 					<a class="wow fadeIn" target="_blank" href="./documents/top.pdf?v=<?= date('YmdHis') ?>">
@@ -248,7 +242,7 @@ $rev = [
 	<section class="section section__slider" id="project">
 		<div class="container">
 			<div class="container__title">
-				<h2 class="wow fadeIn">Наш продукт — стартап <span>TALENTSPOT</span></h2>
+				<h2 class="wow fadeIn">Стартап <span>TALENTSPOT</span></h2>
 			</div>
 			<article class="container__content">
 				<div class="section__slider__container">
@@ -442,7 +436,7 @@ $rev = [
 				<span></span>
 				<a href='/privacy'>Политика конфиденциальности</a>
 				<span></span>
-				<a href='https://github.com/tslru' target='_blank'>GitHub</a>
+				<a href='https://github.com/talentspot' target='_blank'>GitHub</a>
 				<span></span>
 				<a href='/en'>In english</a>
 			</div>

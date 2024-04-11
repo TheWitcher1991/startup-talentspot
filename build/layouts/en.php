@@ -46,13 +46,7 @@ $rev = [
 						<span>vip.pdf</span>
 					</div>
 				</a>
-				<a target="_blank" href="./documents/diplom.pdf?v=<?= date('YmdHis') ?>">
-					<img src="./img/frame/PDF.png" alt="">
-					<div>
-						<p>Diploma</p>
-						<span>diplom.pdf</span>
-					</div>
-				</a>
+
 			</div>
 			<div class="cart__info">
 
@@ -185,7 +179,7 @@ $rev = [
 			<article class="container__content">
 				<div class="company__info wow fadeIn">
 					<h3>TALENT <br> SPOT —</h3>
-					<div> <?= $name ?> a young startup company. <br> We focus on creating digital solutions that are useful for Russia</div>
+					<div> <?= $name ?> a young accredited IT company. <br> We focus on creating digital solutions that are useful for Russia</div>
 				</div>
 				<div class="company__cart">
 
@@ -247,7 +241,7 @@ $rev = [
 	<section class="section section__slider" id="project">
 		<div class="container">
 			<div class="container__title">
-				<h2 class="wow fadeIn">Our product is the startup <span>TALENTSPOT</span></h2>
+				<h2 class="wow fadeIn">Startup <span>TALENTSPOT</span></h2>
 			</div>
 			<article class="container__content">
 				<div class="section__slider__container">
@@ -441,7 +435,7 @@ $rev = [
 				<span></span>
 				<a href='/en-privacy'>Privacy policy</a>
 				<span></span>
-				<a href='https://github.com/tslru' target='_blank'>GitHub</a>
+				<a href='https://github.com/talentspot' target='_blank'>GitHub</a>
 				<span></span>
 				<a href='/'>На русском</a>
 			</div>
