@@ -1,7 +1,7 @@
 <?php
 
-$title = 'Startup — TALENTSPOT';
-$description = 'Platform for automating the hiring process of skilled personnel';
+$title = 'TalentSpot';
+$description = 'Talent pool and automation platform for hiring qualified personnel';
 $name = 'LLC «TalentSpot» (RU)';
 $email = 'info@talentspot.ru';
 $year = date("Y");
@@ -140,7 +140,7 @@ $rev = [
 	<section class="section section__header">
 		<div class="container">
 			<div class="head__title">
-				<h1 class="wow fadeIn">Platform for automating the hiring process of <span>skilled</span> personnel</h1>
+				<h1 class="wow fadeIn">Talent pool platform and recruitment of <span>qualified</span> candidates</h1>
 				<div class="header__resume wow slideInRight">
 					<div class="hr-top">
 						<img src="./img/frame/image-room.png?v=<?= date('YmdHis') ?>" alt="">
@@ -179,7 +179,7 @@ $rev = [
 			<article class="container__content">
 				<div class="company__info wow fadeIn">
 					<h3>TALENT <br> SPOT —</h3>
-					<div> <?= $name ?> a young accredited IT company. <br> We focus on creating digital solutions that are useful for Russia</div>
+					<div> <?= $name ?> a young IT company. <br> We focus on creating digital solutions that are useful for Russia</div>
 				</div>
 				<div class="company__cart">
 
@@ -200,7 +200,7 @@ $rev = [
 							<p>React</p>
 							<p>Docker</p>
 							<p>Nginx</p>
-							<p>MySQL</p>
+							<p>Celery</p>
 							<p>PostgreSQL</p>
 						</div>
 						<span class="stack__title">Our technology stack</span>
@@ -229,8 +229,7 @@ $rev = [
 					</div>
 					<div class="services__item">
 						<h3>Startup <span>TALENTSPOT</span> </h3>
-						<p>Platform for automating the process of hiring qualified personnel</p>
-						<a class="link__button" target="_blank" href="./documents/diplom.pdf?v=<?= date('YmdHis') ?>">Diploma <i class="mdi mdi-arrow-top-right"></i></a>
+						<p><?= $description ?></p>
 						<img src="./img/frame/service_2.png?v=<?= date('YmdHis') ?>" alt="">
 					</div>
 				</div>
@@ -255,34 +254,44 @@ $rev = [
 					<div class="slider__wrapper wow fadeIn">
 						<div class="owl-carousel owl-theme">
 							<div class="item slider__item">
-								<h4 class="slider__title">Rating</h4>
-								<p class="slider__text">Building the reputation of candidates on a point system</p>
-								<img class="img__q3" src="./img/frame/q3.png?v=<?= date('YmdHis') ?>" alt="">
+								<h4 class="slider__title">Specialists</h4>
+								<p class="slider__text">Resumes of qualified personnel only</p>
+								<img class="img__q3" src="./img/view/create.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 							<div class="item slider__item">
 								<h4 class="slider__title">Hiring automation</h4>
 								<p class="slider__text">Automate hiring with auto-filtering and a chatbot</p>
-								<img class="img__q1" src="./img/frame/q1.png?v=<?= date('YmdHis') ?>" alt="">
+								<img class="img__q1" src="./img/view/auto.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 							<div class="item slider__item">
-								<h4 class="slider__title">Personnel reserve</h4>
+								<h4 class="slider__title">Rating</h4>
+								<p class="slider__text">Building the reputation of candidates on a point system</p>
+								<img class="img__q3" src="./img/view/rating.png?v=<?= date('YmdHis') ?>" alt="">
+							</div>
+							<div class="item slider__item">
+								<h4 class="slider__title">Talent pool</h4>
 								<p class="slider__text">Store specialist resumes for the future</p>
-								<img class="img__q2" src="./img/frame/q2.png?v=<?= date('YmdHis') ?>" alt="">
+								<img class="img__q2" src="./img/view/cadre.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 							<div class="item slider__item">
-								<h4 class="slider__title">Specialists</h4>
-								<p class="slider__text">Resumes of qualified personnel only</p>
-								<img class="img__q4" src="./img/frame/q4.png?v=<?= date('YmdHis') ?>" alt="">
+								<h4 class="slider__title">Team system</h4>
+								<p class="slider__text">Put less effort into recruiting top talent</p>
+								<img class="img__q4" src="./img/view/team.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 							<div class="item slider__item">
 								<h4 class="slider__title">Managers</h4>
 								<p class="slider__text">Delegate vacancies between employees</p>
-								<img class="img__q5" src="./img/frame/q5.png?v=<?= date('YmdHis') ?>" alt="">
+								<img class="img__q5" src="./img/view/users.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 							<div class="item slider__item">
-								<h4 class="slider__title">Chat</h4>
+								<h4 class="slider__title">Responses</h4>
+								<p class="slider__text">Establish instant rapport with each other</p>
+								<img class="img__q5" src="./img/view/resp.png?v=<?= date('YmdHis') ?>" alt="">
+							</div>
+							<div class="item slider__item">
+								<h4 class="slider__title">Negotiation</h4>
 								<p class="slider__text">Always in touch with the candidate</p>
-								<img class="img__q6" src="./img/frame/q6.png?v=<?= date('YmdHis') ?>" alt="">
+								<img class="img__q6" src="./img/view/chat.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 						</div>
 					</div>
@@ -409,7 +418,21 @@ $rev = [
 
 	<section class="section section__feedback">
 		<div class="container">
-			<div class="feedback__container wow fadeIn">
+			<div class="feedback__container go__back wow fadeIn">
+				<div>
+					<h3>
+						Opening the doors to a new level of job search and skilled labor
+					</h3>
+					<a class="link__button" href="https://talentspot.ru">Join <i class="mdi mdi-arrow-top-right"></i></a>
+				</div>
+				<img src="./img/frame/go.png?v=<?= date('YmdHis') ?>" alt="">
+			</div>
+		</div>
+	</section>
+
+	<section class="section section__feedback">
+		<div class="container">
+			<div class="feedback__container feedback__back wow fadeIn">
 				<h3>
 					If you have any questions, please contact us for more details
 				</h3>

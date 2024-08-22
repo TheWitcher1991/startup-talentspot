@@ -1,7 +1,7 @@
 <?php
 
-$title = 'Стартап — TALENTSPOT';
-$description = 'Платформа автоматизации процесса найма квалифицированного персонала';
+$title = 'TalentSpot';
+$description = 'Платформа кадрового резерва и автоматизации найма квалифицированных кадров';
 $name = 'ООО «ТалентСпот»';
 $email = 'info@talentspot.ru';
 $year = date("Y");
@@ -46,8 +46,6 @@ $rev = [
 						<span>vip.pdf</span>
 					</div>
 				</a>
-
-
 
 
 			</div>
@@ -142,7 +140,7 @@ $rev = [
 	<section class="section section__header">
 		<div class="container">
 			<div class="head__title">
-				<h1 class="wow fadeIn">Платформа автоматизации процесса найма <span>квалифицированного</span> персонала</h1>
+				<h1 class="wow fadeIn">Платформа кадрового резерва и найма <span>квалифицированных</span> кандидатов</h1>
 				<div class="header__resume wow slideInRight">
 					<div class="hr-top">
 						<img src="./img/frame/image-room.png?v=<?= date('YmdHis') ?>" alt="">
@@ -181,7 +179,7 @@ $rev = [
 			<article class="container__content">
 				<div class="company__info wow fadeIn">
 					<h3>TALENT <br> SPOT —</h3>
-					<div> <?= $name ?> молодая аккредитованная ИТ-компания. <br> Мы фокусируемся на создании цифровых решений полезных для России</div>
+					<div> <?= $name ?> молодая ит-компания. <br> Мы фокусируемся на создании цифровых решений полезных для России</div>
 				</div>
 				<div class="company__cart">
 					<a class="wow fadeIn" target="_blank" href="./documents/top.pdf?v=<?= date('YmdHis') ?>">
@@ -201,7 +199,7 @@ $rev = [
 							<p>React</p>
 							<p>Docker</p>
 							<p>Nginx</p>
-							<p>MySQL</p>
+							<p>Celery</p>
 							<p>PostgreSQL</p>
 						</div>
 						<span class="stack__title">Наш стек технологий</span>
@@ -230,8 +228,7 @@ $rev = [
 					</div>
 					<div class="services__item">
 						<h3>Стартап <span>TALENTSPOT</span></h3>
-						<p>Платформа автоматизации процесса найма квалифицированного персонала</p>
-						<a class="link__button" target="_blank" href="./documents/diplom.pdf?v=<?= date('YmdHis') ?>">Диплом <i class="mdi mdi-arrow-top-right"></i></a>
+						<p><?= $description ?></p>
 						<img src="./img/frame/service_2.png?v=<?= date('YmdHis') ?>" alt="">
 					</div>
 				</div>
@@ -256,34 +253,44 @@ $rev = [
 					<div class="slider__wrapper wow fadeIn">
 						<div class="owl-carousel owl-theme">
 							<div class="item slider__item">
-								<h4 class="slider__title">Рейтинг</h4>
-								<p class="slider__text">Выстраивание репутации кандидатов по балльной системе</p>
-								<img class="img__q3" src="./img/frame/q3.png?v=<?= date('YmdHis') ?>" alt="">
+								<h4 class="slider__title">Специалисты</h4>
+								<p class="slider__text">Резюме только квалифицированных кадров</p>
+								<img class="img__q3" src="./img/view/create.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 							<div class="item slider__item">
 								<h4 class="slider__title">Автоматизация найма</h4>
 								<p class="slider__text">Автоматизируйте найм с авто-фильтрацией и чат-ботом</p>
-								<img class="img__q1" src="./img/frame/q1.png?v=<?= date('YmdHis') ?>" alt="">
+								<img class="img__q1" src="./img/view/auto.png?v=<?= date('YmdHis') ?>" alt="">
+							</div>
+							<div class="item slider__item">
+								<h4 class="slider__title">Рейтинг</h4>
+								<p class="slider__text">Выстраивание репутации кандидатов по балльной системе</p>
+								<img class="img__q3" src="./img/view/rating.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 							<div class="item slider__item">
 								<h4 class="slider__title">Кадровый резерв</h4>
 								<p class="slider__text">Храните резюме специалистов на будущее</p>
-								<img class="img__q2" src="./img/frame/q2.png?v=<?= date('YmdHis') ?>" alt="">
+								<img class="img__q2" src="./img/view/cadre.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 							<div class="item slider__item">
-								<h4 class="slider__title">Специалисты</h4>
-								<p class="slider__text">Резюме только квалифицированных кадров</p>
-								<img class="img__q4" src="./img/frame/q4.png?v=<?= date('YmdHis') ?>" alt="">
+								<h4 class="slider__title">Система команд</h4>
+								<p class="slider__text">Прилагайте меньше усилий для подбора лучших специалистов</p>
+								<img class="img__q4" src="./img/view/team.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 							<div class="item slider__item">
 								<h4 class="slider__title">Менеджеры</h4>
 								<p class="slider__text">Делегируйте вакансии между сотрудниками</p>
-								<img class="img__q5" src="./img/frame/q5.png?v=<?= date('YmdHis') ?>" alt="">
+								<img class="img__q5" src="./img/view/users.png?v=<?= date('YmdHis') ?>" alt="">
+							</div>
+							<div class="item slider__item">
+								<h4 class="slider__title">Отклики</h4>
+								<p class="slider__text">Устанавливайте мгновенный контакт друг с другом</p>
+								<img class="img__q5" src="./img/view/resp.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 							<div class="item slider__item">
 								<h4 class="slider__title">Чат</h4>
 								<p class="slider__text">Всегда на связи с кандидатом</p>
-								<img class="img__q6" src="./img/frame/q6.png?v=<?= date('YmdHis') ?>" alt="">
+								<img class="img__q6" src="./img/view/chat.png?v=<?= date('YmdHis') ?>" alt="">
 							</div>
 						</div>
 					</div>
@@ -410,7 +417,21 @@ $rev = [
 
 	<section class="section section__feedback">
 		<div class="container">
-			<div class="feedback__container wow fadeIn">
+			<div class="feedback__container go__back wow fadeIn">
+				<div>
+					<h3>
+						Открываем двери к новому уровню поиска работы и квалифицированных кадров
+					</h3>
+					<a class="link__button" href="https://talentspot.ru">Присоединиться <i class="mdi mdi-arrow-top-right"></i></a>
+				</div>
+				<img src="./img/frame/go.png?v=<?= date('YmdHis') ?>" alt="">
+			</div>
+		</div>
+	</section>
+
+	<section class="section section__feedback">
+		<div class="container">
+			<div class="feedback__container feedback__back wow fadeIn">
 				<h3>
 					Если у вас возникли вопросы, то свяжитесь с нами для уточнения подробностей
 				</h3>

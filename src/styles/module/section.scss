@@ -294,8 +294,6 @@
 }
 
 .section__slider__container {
-    display: flex;
-    margin: 0 0 60px 0;
     background-image: url("/build/img/frame/Vector 40.png");
     background-repeat: no-repeat;
     background-position: left;
@@ -304,10 +302,9 @@
 
     .project__text {
         font-size: 17px;
-        width: 200px;
         text-wrap: balance;
         flex: auto;
-        margin: 0 30px 0 0;
+        margin: 0 0 30px 0;
 
         a {
             width: 200px;
@@ -316,28 +313,18 @@
     }
 
     .slider__wrapper {
-        flex: auto;
-        width: 60%;
+        width: 100%;
     }
-}
-
-.owl-carousel .owl-item img {
-    width: 130px;
-}
-
-.owl-carousel .owl-item .img__q3 {
-    width: 100px;
 }
 
 .item {
     display: block;
-    box-shadow: var(--shadow-div);
-    background: var(--color-white);
-    height: 250px;
     padding: 25px;
     border-radius: 20px;
     position: relative;
     overflow: hidden;
+    background: #fff;
+    height: 400px;
 
     > p {
         background: transparent;
@@ -346,10 +333,11 @@
     }
 
     > img {
-        object-fit: cover;
-        position: absolute;
-        right: 0;
-        bottom: 0;
+        max-width: 336px;
+        object-fit: none;
+        margin: 16px auto 16px auto;
+        max-height: 100%;
+
     }
 }
 
@@ -397,9 +385,28 @@
     display: block;
     border-radius: 30px;
     position: relative;
-    background-image: url("/build/img/frame/feedback_bg.png");
     background-size: cover;
+    height: fit-content;
     background-repeat: no-repeat;
+    overflow: hidden;
+
+    &.go__back {
+        background: linear-gradient(90deg, #84d4d4 0%, #7fc3c3 30.66%, #a4e0e0 47.2%);
+        height: 270px;
+
+        img {
+            height: 250px;
+        }
+    }
+
+    &.feedback__back {
+        background-image: url("/build/img/frame/feedback_bg.png");
+        height: 250px;
+
+        img {
+            height: 250px;
+        }
+    }
 
     h3 {
         font-size: 27px;
