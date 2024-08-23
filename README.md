@@ -1,3 +1,3 @@
-<p align="center">
-    <h1 align="center">Сайт ООО «ТалентСпот»</h1>
-</p>
+## Визитка ООО «ТалентСпот»
+
+Сама платформа https://talentspot.ru
