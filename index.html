@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<!--[if lt IE 6]><html class="ie ie6" lang="ru" dir="ltr"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="ru" dir="ltr"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="ru" dir="ltr"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9" lang="ru" dir="ltr"> <![endif]-->
+<!--[if IE 10]><html class="ie ie10" lang="ru" dir="ltr"> <![endif]-->
+<!--[if (gte IE 11)|!(IE)]><!-->
+<html lang="ru" dir="ltr" xmlns="http://www.w3.org/1999/html">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- SEO -->
+    <title>TalentSpot</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="description" content="'.$description.'" />
+    <meta
+      name="keywords"
+      content="талентспот, ооо талентспот, talentspot, llc talentspot, автоматизация, автоматизация найма, кадровый резерв, квалифицированные кадры, подбор персонала, стартап"
+    />
+    <meta http-equiv="content-language" content="ru" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+
+    <meta name="author" content="ООО ТалентСпот" />
+    <meta name="copyright" content="ООО ТалентСпот" />
+
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TalentSpot" />
+
+    <meta name="twitter:domain" content="startup.talentspot.ru" />
+    <meta name="twitter:site" content="@talentspot.ru" />
+    <meta name="twitter:creator" content="@talentspot.ru" />
+
+    <link
+      rel="shortcut icon"
+      href="./build/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="./build/img/favicon.png" type="image/x-icon" />
+    <!-- / SEO  -->
+
+    <meta name="yandex-verification" content="98afc2b57a4f3cca" />
+
+    <!-- SCRIPT FOR OLD BROWSERS -->
+    <script type="text/javascript">
+      /*!function(){"use strict";function trackOldBrowserEvent(){var t=function createXmlHttpRequestObject(){var t;try{t=new XMLHttpRequest}catch(r){
+          for(var e=new Array("MSXML2.XMLHHTP.11.0","MSXML2.XMLHHTP.10.0","MSXML2.XMLHHTP.9.0","MSXML2.XMLHHTP.8.0","MSXML2.XMLHHTP.7.0",
+          "MSXML2.XMLHHTP.6.0","MSXML2.XMLHHTP.5.0","MSXML2.XMLHHTP.4.0","MSXML2.XMLHHTP.3.0","MSXML2.XMLHHTP","Microsoft.XMLHHTP"),s=0;s<e.length&&!t;s++)
+          try{t=new ActiveXObject(e[s])}catch(t){}}return null!=t?t:void 0}(),e=new Object;return e.open="/badbrowser?status="+(0!==t.status&&t.status),
+          e.xhr=t.responseURL?t.responseURL:"/badbrowser?status="+(0!==t.status&&t.status),t.open("GET",e.open,!0),t.setRequestHeader("Content-Type","text/html"),
+          t.setRequestHeader("X-Requested-With","XMLHttpRequest"),t.onreadystatechange=function(){if(4===t.readyState&&(t.status>=200&&t.status<300||304===t.status||0===
+          t.status&&"file:"===protocol))try{location.replace(t.responseURL?t.responseURL:"/badbrowser?status="+t.status)}catch(t){}},t.send(e.xhr?e.xhr:null),t}!
+          function checkOldBrowser(){if(document.body)try{"CSS"in window&&CSS.supports("display","flex")&&"undefined"!=typeof Symbol||trackOldBrowserEvent()}catch(t){}else 
+          setTimeout(checkOldBrowser,100)}()}();*/
+    </script>
+    <!-- / SCRIPT FOR OLD BROWSERS -->
+
+    <!-- INCLUDE LIBS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- / INCLUDE LIBS -->
+
+    <!-- INCLUDE ICONS AND FRONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.min.css"
+      integrity="sha512-nRzny9w0V2Y1/APe+iEhKAwGAc+K8QYCw4vJek3zXhdn92HtKt226zHs9id8eUq+uYJKaH2gPyuLcaG/dE5c7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- / INCLUDE ICONS AND FRONTS -->
+
+    <link rel="stylesheet" href="./build/lk.bundle.css?v='.date('YmdHis').'" />
+  </head>
+  <body>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(96541801, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/96541801"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <dialog class="modal__full">
+      <section class="company__documents">
+        <div class="container">
+          <div class="modal__title">
+            <i class="mdi mdi-arrow-left"></i>
+            <h2>Реквизиты компании</h2>
+          </div>
+          <div class="documents">
+            <a
+              target="_blank"
+              href="./build/documents/inn.pdf?v=<?= date('YmdHis') ?>"
+            >
+              <img src="./build/img/frame/PDF.png" alt="" />
+              <div>
+                <p>Свидетельство ИНН</p>
+                <span>inn.pdf</span>
+              </div>
+            </a>
+            <a
+              target="_blank"
+              href="./build/documents/ustav.pdf?v=<?= date('YmdHis') ?>"
+            >
+              <img src="./build/img/frame/PDF.png" alt="" />
+              <div>
+                <p>Устав общества</p>
+                <span>ustav.pdf</span>
+              </div>
+            </a>
+            <a
+              target="_blank"
+              href="./build/documents/vip.pdf?v=<?= date('YmdHis') ?>"
+            >
+              <img src="./build/img/frame/PDF.png" alt="" />
+              <div>
+                <p>Выписка из ЕГРЮЛ</p>
+                <span>vip.pdf</span>
+              </div>
+            </a>
+          </div>
+          <div class="cart__info">
+            <article>
+              <span>ООО «ТалентСпот»</span>
+            </article>
+            <div class="cart__grid">
+              <?php
+
+                    foreach ($rev as $key =>
+              $val) { ?>
+              <div>
+                <span><?= $key ?></span>
+                <p><?= $val ?></p>
+              </div>
+              <?php
+                    }
+
+                    ?>
+            </div>
+          </div>
+        </div>
+      </section>
+    </dialog>
+
+    <main class="wrapper" id="wrapper">
+      <div class="cookie__block">
+        <div class="container cookie__flex">
+          <span
+            >Мы используем файлы cookie с целью персонализации сервисов и чтобы
+            пользоваться веб-сайтом было удобнее. Продолжив работу с сайтом, вы
+            соглашаетесь с использованием файлов cookie. Если вы не хотите
+            использовать файлы cookie, измените настройки браузера.</span
+          >
+          <button class="cookie__ok">Понятно</button>
+        </div>
+      </div>
+
+      <div class="arrow__up">
+        <i class="mdi mdi-arrow-up"></i>
+      </div>
+
+      <section class="section__mobile">
+        <div class="container">
+          <nav class="mobile__nav">
+            <div class="header__logo">
+              <img src="./build/img/logo/166666/png/512x512.png" alt="" />
+              TALENTSPOT
+            </div>
+            <div class="mobile__nav__button">
+              <a href="/en">EN</a>
+              <i class="mdi mdi-menu mobile__menu__bth"></i>
+            </div>
+          </nav>
+          <ul class="mobile__menu">
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#service">Наши услуги</a></li>
+            <li><a href="#project">Наш продукт</a></li>
+            <li><a href="#client">Клиентам</a></li>
+            <li><a class="create__contact">Контакты</a></li>
+
+            <li>
+              <a href="https://fasie.ru" target="_blank"
+                >Фонд <i class="mdi mdi-arrow-top-right"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <header id="header">
+        <div class="container">
+          <nav class="header__nav">
+            <div class="header__logo">
+              <img src="./build/img/logo/166666/png/512x512.png" alt="" />
+              TALENTSPOT
+            </div>
+
+            <div class="header__menu">
+              <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#project">Наш продукт</a></li>
+                <li><a href="#client">Клиентам</a></li>
+                <li><a class="create__contact">Контакты</a></li>
+              </ul>
+            </div>
+
+            <div class="header__button"></div>
+          </nav>
+        </div>
+      </header>
+
+      <section class="section section__header">
+        <div class="container">
+          <div class="head__title">
+            <h1 class="wow fadeIn">
+              Цифровая платформа карьерного мониторинга и
+              <span>аналитики трудоустройства</span> студентов и выпускников
+            </h1>
+          </div>
+          <div class="head__img wow fadeIn">
+            <img src="./build/img/hero.png" />
+            <a href="./build/documents/diplom.pdf" target="_blank"
+              >* при поддержке «Фонда содействия инновациям» в рамках программы
+              «Студенческий стартап»</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section section__about" id="about">
+        <img
+          class="global__img-left"
+          src="./build/img/frame/right.png"
+          alt=""
+        />
+
+        <img
+          class="global__img-right"
+          src="./build/img/frame/Union.png"
+          alt=""
+        />
+
+        <div class="container">
+          <div class="container__title wow fadeIn">
+            <h2>Кто мы?</h2>
+          </div>
+          <article class="container__content">
+            <div class="company__info wow fadeIn">
+              <h3>
+                TALENT <br />
+                SPOT —
+              </h3>
+              <div>
+                цифровая платформа аналитики карьерных траекторий студентов и
+                выпускников для университетов <br />
+                Мы фокусируемся на создании цифровых решений полезных для России
+              </div>
+            </div>
+            <div class="company__cart">
+              <a
+                class="wow fadeIn"
+                target="_blank"
+                href="./build/documents/top.pdf"
+              >
+                <span class="company__top"> ТОП <span>1000</span> </span>
+                <span class="company__exp"
+                  >мы в списке лучших стартапов России за 2025 год</span
+                >
+              </a>
+              <div class="wow fadeIn">
+                <div class="stack__list">
+                  <p>Python</p>
+                  <p>Django</p>
+                  <p>PHP</p>
+                  <p>NodeJS</p>
+                  <p>JavaScript</p>
+                  <p>TypeScript</p>
+                  <p>React</p>
+                  <p>Docker</p>
+                  <p>Nginx</p>
+                  <p>Celery</p>
+                  <p>PostgreSQL</p>
+                </div>
+                <span class="stack__title">Наш стек технологий</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section__slider" id="project">
+        <div class="container">
+          <div class="container__title">
+            <h2 class="wow fadeIn">Что такое <span>TALENTSPOT?</span></h2>
+          </div>
+          <article class="container__content">
+            <div class="section__slider__container">
+              <div class="project__text wow fadeIn">
+                TalentSpot — это единая цифровая система, которая объединяет
+                академические данные, карьерные события и аналитику
+                трудоустройства студентов и выпускников вуза.
+              </div>
+              <div class="slider__wrapper wow fadeIn">
+                <div class="owl-carousel owl-theme">
+                  <div class="item slider__item">
+                    <h4 class="slider__title">Цифровые профили студентов</h4>
+                    <p class="slider__text">
+                      Единый профиль, объединяющий обучение, навыки, практики и
+                      карьерные события
+                    </p>
+                    <img
+                      class="img__q3"
+                      src="./build/img/view/create.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item slider__item">
+                    <h4 class="slider__title">Карьерный мониторинг</h4>
+                    <p class="slider__text">
+                      Непрерывное отслеживание трудоустройства и карьерной
+                      динамики выпускников
+                    </p>
+                    <img
+                      class="img__q1"
+                      src="./build/img/view/auto.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item slider__item">
+                    <h4 class="slider__title">Аналитика компетенций</h4>
+                    <p class="slider__text">
+                      Анализ востребованных навыков и соответствия
+                      образовательных программ рынку труда
+                    </p>
+                    <img
+                      class="img__q3"
+                      src="./build/img/view/rating.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item slider__item">
+                    <h4 class="slider__title">База выпускников</h4>
+                    <p class="slider__text">
+                      Долгосрочное хранение и обновление карьерных траекторий
+                      выпускников
+                    </p>
+                    <img
+                      class="img__q2"
+                      src="./build/img/view/cadre.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item slider__item">
+                    <h4 class="slider__title">Система команд</h4>
+                    <p class="slider__text">
+                      Прилагайте меньше усилий для подбора лучших специалистов
+                    </p>
+                    <img
+                      class="img__q4"
+                      src="./build/img/view/team.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item slider__item">
+                    <h4 class="slider__title">Менеджеры</h4>
+                    <p class="slider__text">
+                      Делегируйте вакансии между сотрудниками
+                    </p>
+                    <img
+                      class="img__q5"
+                      src="./build/img/view/users.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item slider__item">
+                    <h4 class="slider__title">Отклики</h4>
+                    <p class="slider__text">
+                      Устанавливайте мгновенный контакт друг с другом
+                    </p>
+                    <img
+                      class="img__q5"
+                      src="./build/img/view/resp.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item slider__item">
+                    <h4 class="slider__title">Чат</h4>
+                    <p class="slider__text">
+                      Всегда на связи со студентам и выпускниками
+                    </p>
+                    <img
+                      class="img__q6"
+                      src="./build/img/view/chat.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section__device">
+        <div class="container">
+          <div class="container__title">
+            <h2 class="wow fadeIn">
+              Платформа <span>подстраивается</span> под запросы клиентов
+            </h2>
+          </div>
+          <article class="container__content">
+            <div class="device__wrapper">
+              <div class="device__block">
+                <div class="device__text wow fadeIn">
+                  <h3>АКТУАЛЬНАЯ ИНФОРМАЦИЯ</h3>
+                  <span
+                    >Объективная информация о занятости студентов и
+                    выпускников</span
+                  >
+                  <p>
+                    Платформа агрегирует данные о трудоустройстве, стажировках,
+                    смене позиций и профессиональном росте, формируя актуальную
+                    картину карьерных траекторий.
+                  </p>
+                </div>
+                <div class="slot__success wow bounceIn" data-wow-delay="400ms">
+                  <span><i class="mdi mdi-check-bold"></i></span>
+                  Отклик студента зафиксирован!
+                </div>
+                <div class="slot__industry wow bounceIn" data-wow-delay="600ms">
+                  <span>Отрасли</span>
+                  <ul>
+                    <li>ИТ-Технологии</li>
+                    <li>Сельское хозяйство</li>
+                    <li>Медицина</li>
+                    <li>Промышленность</li>
+                    <li>Юриспруденция</li>
+                    <li>Более 20 отраслей</li>
+                  </ul>
+                </div>
+                <div class="device__img wow fadeIn">
+                  <img
+                    class="wow slideInUp"
+                    src="./build/img/device/iPhone%2015%20Black.png"
+                    alt="talentspot mobile"
+                  />
+                </div>
+              </div>
+              <div class="device__block">
+                <div class="device__img wow fadeIn">
+                  <img
+                    class="wow slideInRight"
+                    src="./build/img/device/Group%201000006943.png"
+                    alt="talentspot mobile"
+                  />
+                </div>
+                <div class="device__text wow fadeIn">
+                  <h3>ШИРОКИЙ ФУНКЦИОНАЛ</h3>
+                  <span>Инструменты для вузов</span>
+                  <p>
+                    Личный кабинет университета предоставляет аналитику,
+                    отчётность и визуализацию данных, необходимых для
+                    аккредитаций, мониторинга и стратегического планирования.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section__price" id="client">
+        <div class="container">
+          <article class="container__price">
+            <div class="price__block">
+              <div class="price__content wow fadeIn">
+                <h2>Студентам и выпускникам</h2>
+                <ul class="price__list">
+                  <li>
+                    <i class="mdi mdi-star-outline"></i>
+                    <div>
+                      <p>Рейтинговая система</p>
+                      <span
+                        >Поддерживайте репутацию специалиста: откликайтесь на
+                        вакансии, проходите тесты и получайте рекомендации от
+                        бывших работодателей, — копите баллы и привлекайте
+                        работодателей</span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="mdi mdi-tune-variant"></i>
+                    <div>
+                      <p>Цифровой карьерный профиль</p>
+                      <span
+                        >Создавайте качественное резюме с помощью удобного
+                        пользовательского интерфейса и различных шаблонов
+                        заполнения</span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="mdi mdi-check-decagram-outline"></i>
+                    <div>
+                      <p>Проверенные работодатели</p>
+                      <span
+                        >Мы будем проверять информацию о каждом предприятии или
+                        предпринимателе на этапе регистрации, — только
+                        подтвержденные работодатели</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="wow fadeIn">
+                <img src="./build/img/frame/Frame%201261155139.png" alt="" />
+              </div>
+            </div>
+            <div class="price__block wow fadeIn">
+              <div class="wow fadeIn">
+                <img src="./build/img/frame/Frame%201261155140.png" alt="" />
+              </div>
+              <div class="price__content wow fadeIn">
+                <h2>Университетам</h2>
+                <ul class="price__list">
+                  <li>
+                    <i class="mdi mdi-account-tie-outline"></i>
+                    <div>
+                      <p>Достоверная аналитика трудоустройства</p>
+                      <span
+                        >Данные, основанные на фактах, а не разовых
+                        опросах</span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="mdi mdi-currency-rub"></i>
+                    <div>
+                      <p>Снижение ручной нагрузки</p>
+                      <span>Автоматизация работы центров карьеры</span>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="mdi mdi-robot-happy-outline"></i>
+                    <div>
+                      <p>Основа для управленческих решений</p>
+                      <span
+                        >Корректировка образовательных программ на основе
+                        реальных данных</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section__feedback">
+        <div class="container">
+          <div class="feedback__container feedback__back wow fadeIn">
+            <h3>
+              Если у вас возникли вопросы, то свяжитесь с нами для уточнения
+              подробностей
+            </h3>
+            <a class="link__button" href="mailto:<?= $email ?>"
+              >Связаться с нами <i class="mdi mdi-arrow-top-right"></i
+            ></a>
+            <img src="./build/img/frame/pochta.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer" class="footer">
+        <div class="container">
+          <div class="footer__top">
+            <span
+              ><i class="mdi mdi-copyright"></i> 2026 Общество с ограниченной
+              ответственностью «ТалентСпот»</span
+            >
+            <span class="footer__top__email"> info@talentspot.ru </span>
+          </div>
+          <div class="footer__bottom">
+            <a class="create__contact">Контакты</a>
+            <span></span>
+            <a href="http://fasie.ru" target="_blank"
+              >Фонд содействиям инновациям</a
+            >
+            <span></span>
+            <a href="/privacy">Политика конфиденциальности</a>
+            <span></span>
+            <a href="https://github.com/talentspot" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- INCLUDE SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new WOW().init();
+    </script>
+
+    <script src="./build/lk.bundle.js?v='.date('YmdHis').'"></script>
+    <!-- / INCLUDE SCRIPTS -->
+  </body>
+</html>
